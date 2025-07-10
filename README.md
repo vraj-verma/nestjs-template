@@ -79,13 +79,13 @@ Make sure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vraj-verma/nestjs-starter-template.git
+git clone https://github.com/vraj-verma/nestjs-template.git
 ```
 
 ### 2. Navigate into the project directory
 
 ```bash
-cd nestjs-starter-template
+cd nestjs-template
 ```
 
 ### 3. Install dependencies
