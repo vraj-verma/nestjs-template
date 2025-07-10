@@ -162,7 +162,7 @@ Runs at: http://localhost:7001
 ```bash
 src/
 ├── accounts/        # Account-related modules and logic
-├── auth/            # Authentication module (signup, signin, guards, etc.)
+├── auth/            # Authentication module (signup, signin)
 ├── constants/       # Application-wide constants
 ├── db/              # Database configuration and services
 ├── enums/           # Enum definitions used across the app
