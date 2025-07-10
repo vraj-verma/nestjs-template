@@ -95,17 +95,15 @@ npm i
 
 ### 4. Update sample Config values with your configuration
 Sample data 
-```typescript
-export const config = {
-  mongo: {
-    uri: 'mongodb://localhost:27017',
-    dbName: 'mytestdb',
-    port: 27017,
-  },
-  jwt: {
-    secret: 'thi$-$hould-be-very-$ecure',
-    expiresIn: '5d',
-  },
+```json
+{
+    "MONGOCONFIG": {
+        "DATABASE_NAME": "mytestdb",
+        "PORT": 27017,
+        "URI": "mongodb://localhost:27017"
+    },
+    "JWT_SECRET": "thi$-$hould-be-very-$ecure",
+    "JWT_EXPIRY": "5d"
 };
 ```
 
